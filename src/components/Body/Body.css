@@ -1,0 +1,11 @@
+.body {
+  flex: 0.8;
+  scrollbar-color: Red;
+}
+
+@media screen and (max-width: 767px) {
+  .body {
+    width: 30px;
+    margin-left: 70px;
+  }
+}

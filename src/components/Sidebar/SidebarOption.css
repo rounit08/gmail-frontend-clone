@@ -1,0 +1,36 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  background: rgb(255, 250, 250);
+  height: 30px;
+  flex: 0.2;
+  margin-top: 3px;
+  color: gray;
+  cursor: pointer;
+  width: 250px;
+
+  border-bottom: 0px solid gray;
+}
+
+.sidebarOption:hover {
+  color: black;
+}
+
+.okk {
+  margin-left: 15px;
+}
+
+.okkk {
+  margin-left: 50px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebarOption {
+    width: 50px;
+  }
+
+  .okkk {
+    margin-left: 5px;
+  }
+}

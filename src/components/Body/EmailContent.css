@@ -1,0 +1,52 @@
+.content {
+  display: flex;
+  align-items: center;
+  background-color: rgb(223, 223, 223);
+  margin-top: 8px;
+  height: 40px;
+  color: rgb(77, 77, 77);
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.content:hover {
+  color: black;
+  font-weight: 700;
+}
+.contentA {
+  margin-left: 5px;
+}
+.contentB {
+  margin-left: 10px;
+}
+.contentC {
+  margin-left: 10px;
+}
+.contentD {
+  margin-left: 50px;
+}
+.contentE {
+  margin-left: 250px;
+}
+.contentF {
+  margin-left: 700px;
+}
+
+@media screen and (max-width: 767px) {
+  .contentD {
+    margin-left: 1px;
+  }
+  .contentC {
+    margin-left: 1px;
+  }
+  .contentB {
+    margin-left: 1px;
+  }
+
+  .contentE {
+    display: none;
+  }
+  .contentF {
+    display: none;
+  }
+}

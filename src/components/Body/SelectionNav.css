@@ -1,0 +1,41 @@
+.selectionNav {
+  display: flex;
+  align-items: center;
+  margin-left: 0px;
+  color: gray;
+  margin-bottom: 2px solid gray;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: 1200px;
+}
+
+.plo {
+}
+
+.plot {
+  margin-left: 20px;
+}
+
+.ploty {
+  margin-left: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .plot {
+    margin-left: 0px;
+  }
+  .ploty {
+    margin-left: 2px;
+  }
+  .right {
+    margin-left: 10px;
+  }
+}
