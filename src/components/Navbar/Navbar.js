@@ -12,7 +12,10 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbarLeft">
         <MenuIcon className="menu" fontSize="large" />
-        <img src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png" />
+        <img
+          alt="loo"
+          src="https://1000logos.net/wp-content/uploads/2021/05/Gmail-logo.png"
+        />
       </div>
 
       <div className="navbarSearch">
@@ -27,6 +30,7 @@ const Navbar = () => {
         <AppsIcon className="part3" fontSize="medium" />
         <img
           className="part4"
+          alt="lo"
           src="https://media.images.yourquote.in/user/large/0/0/0/638/96M32460.jpg"
         />
       </div>
